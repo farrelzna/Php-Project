@@ -1,0 +1,135 @@
+body{
+  background-color: #242564;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 10);
+  border-radius: 4px;
+  margin-top: 50px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.container1{
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 10);
+  border-radius: 4px;
+  margin-top: 50px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.container2 {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 10);
+  border-radius: 4px;
+  margin-top: 50px;
+  border-radius: 20px;
+  text-align:start;
+}
+
+.container3{
+  width: 94.5%;
+  padding: 20px;
+  backdrop-filter: blur(4rem);
+  background: rgba(255,255,255,0.1);
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 10);
+  border-radius: 4px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  margin-bottom: 30px;
+  margin-left: 3%;
+}
+
+a, p, td, label {
+  font-family: "Roboto", sans-serif ;
+  font-weight: bold;
+}
+
+a {
+  padding: 20px;
+  margin-bottom: 15px;
+  background-color: #4c5caf;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+  display: inline-flex;
+}
+
+
+a:hover {
+  background-color: #ff945e;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+label {
+  flex-basis: 25%;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  display:flex;
+}
+
+input[type="number"] {
+  flex-basis: 60%;
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: #00000005;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  flex-basis: 62%;
+  padding: 10px;
+  background-color: #4c5caf;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 27.5%;
+  transition: background-color 0.3s ease;
+}
+
+input:hover[type="submit"]{
+  background-color: #ff945e;
+  cursor: pointer;
+}
+
+.result{
+  margin-top: 30px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.informasi {
+  font-size:10px;
+  color: red;
+}
