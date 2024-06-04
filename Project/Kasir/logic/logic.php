@@ -50,7 +50,7 @@ if (isset($_POST['bayar'])) {
     if (empty($_SESSION['pembelajaan'])) {
         echo "Isi dulu belanjaan baru bayar";
     } else {
-        header("Location: bayar.php");
+        header("Location: Payment.php");
         exit();
     }
 }

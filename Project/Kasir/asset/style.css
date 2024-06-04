@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0% auto;
+    color: #333;
+}
+
+h6 {
+    color: rgb(122, 122, 122);
+}
+
+.container {
+    display: flex;
+}
+
+.section1 {
+    color: #fff;
+    background-color: #c82333;
+    width: 40%;
+    padding: 71px;
+}
+
+.section2 {
+    display: flex;
+    justify-content: end;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 400px;
+    padding: 45px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+form input {
+    font-family: "Poppins", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    border-radius: 7px;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+form .button {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+}   
+
+form button {
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4ac95b;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    border-radius: 7px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover{
+    background-color: #218838;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 25px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.table-button{
+    display: flex;
+}
+
+td button {
+    background-color: #dc3545;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+td button:hover {
+    background-color: #c82333;
+}
+
+@media (max-width: 600px) {
+    form {
+        padding: 15px;
+    }
+
+    form input {
+        font-size: 0.9em;
+    }
+
+    form button {
+        font-size: 0.9em;
+        padding: 8px;
+    }
+
+    table, th, td {
+        font-size: 0.9em;
+    }
+}

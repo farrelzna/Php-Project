@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="asset/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <title>Bahan Bakar</title>
     </head>
@@ -149,9 +149,10 @@
                                         echo "<hr>";
                                     $date1 = date('d-m-y');
                                     $date2 = date('h-i-s');
+                                    $date3 = date('dmy');
                                     echo "<p><strong>$date1</strong>Petugas</p>";
                                     echo "<p><strong>$date2</strong>Kasir</p>";
-                                    echo "<p><strong>No 0-1</strong></p>";
+                                    echo "<p><strong>$date3"."$this->jumlah</strong></p>";
                                         echo "<hr>";
                                     echo "<p><strong>Jenis Bahan Bakar :</strong> " . "<p>$this->tipe</p>" . "</p>";
                                     echo "<p><strong>Jumlah / Liter :</strong> " . "<p>$this->jumlah L</p>";
@@ -195,6 +196,10 @@
                 ?>
             </div>
         </div>
-        <script src="Grup.js"></script>
+        <script>
+            function Hide() {
+                document.getElementById("Grup").style.display = "block";
+            }
+        </script>
     </body>
 </html>

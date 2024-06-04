@@ -53,7 +53,7 @@
                                 $this->nama = $nama;
                                 $this->waktu = $waktu;
                                 $this->tipe = $tipe;
-                                $this->harga = 50000.00;
+                                $this->harga = 50000;
                                 $this->diskon = 0;
                                 $this->pajak = 5000;
                 
