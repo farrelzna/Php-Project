@@ -50,7 +50,7 @@ if(isset($_POST['hapus'])){
                     
                     <?php
                     
-                        if(!isset($_SESSION['dataSiswa'])){
+                        if(isset($_SESSION['dataSiswa'])){
                             $_SESSION['dataSiswa'] = array();
                         }
 

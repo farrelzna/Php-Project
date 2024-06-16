@@ -256,7 +256,7 @@ foreach ($_SESSION['pembelajaan'] as $belan => $b) {
 
         @media print {
             .contain {
-                display:block;
+                display: block;
                 background-color: #fff;
                 box-shadow: none;
             }
@@ -279,7 +279,7 @@ foreach ($_SESSION['pembelajaan'] as $belan => $b) {
             }
 
             .terminal_toolbar {
-                display: none;  
+                display: none;
             }
         }
     </style>

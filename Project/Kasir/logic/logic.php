@@ -45,12 +45,3 @@ if(isset($_POST['hapus'])){
         exit();
     }
 }
-
-if (isset($_POST['bayar'])) {
-    if (empty($_SESSION['pembelajaan'])) {
-        echo "Isi dulu belanjaan baru bayar";
-    } else {
-        header("Location: Payment.php");
-        exit();
-    }
-}

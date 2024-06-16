@@ -5,15 +5,13 @@ foreach ($_SESSION['pembelajaan'] as $b) {
     $total_belanja += $b['harga'] * $b['jumlah'];
 }
 
-?>
-<?php
 if (isset($_POST['cash'])) {
     $uang = $_POST['bayar'];
     $bayar = $uang - $total_belanja;
     if ($bayar < 0) {
         echo
         '<div class="alert alert-danger position-absolute" role="alert" style="bottom: 0; right: 0;  margin-right: 10px;">
-                Uang Kamu Kurang syggg~~~~ ah aha hah ah ah
+                UANG KAMU KURANG!
             </div>';
     } else {
         $_SESSION['kembalian'] = $bayar;

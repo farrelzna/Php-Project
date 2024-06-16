@@ -108,6 +108,12 @@ td button:hover {
     background-color: #c82333;
 }
 
+@media (max-width: 600px){
+    .container{
+        width: 100%;
+    }
+}
+
 @media (max-width: 600px) {
     form {
         padding: 15px;
